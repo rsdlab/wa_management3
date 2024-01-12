@@ -1,0 +1,169 @@
+2024-01-12 12:51:43,136 file.manager INFO 2.0.1
+2024-01-12 12:51:43,136 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:51:43,137 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-01-12 12:51:43,137 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:51:43,137 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-01-12 12:51:43,137 file.manager INFO   All right reserved.
+2024-01-12 12:51:43,137 file.manager INFO Manager starting.
+2024-01-12 12:51:43,137 file.manager INFO Starting local logging.
+2024-01-12 12:51:43,139 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-01-12 12:51:43,142 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-01-12 12:51:43,204 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-01-12 12:51:43,205 file.ec_base INFO setRate(1000000.000000) done
+2024-01-12 12:51:43,205 file.ec_base INFO setRate(1000.000000) done
+2024-01-12 12:51:43,206 file.rtobject INFO 1 execution context was created.
+2024-01-12 12:51:43,208 file.rtobject INFO Initial active configuration set is default.
+2024-01-12 12:52:24,672 file.manager INFO 2.0.1
+2024-01-12 12:52:24,672 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:52:24,672 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-01-12 12:52:24,672 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:52:24,672 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-01-12 12:52:24,672 file.manager INFO   All right reserved.
+2024-01-12 12:52:24,672 file.manager INFO Manager starting.
+2024-01-12 12:52:24,672 file.manager INFO Starting local logging.
+2024-01-12 12:52:24,674 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-01-12 12:52:24,678 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-01-12 12:52:24,738 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-01-12 12:52:24,740 file.ec_base INFO setRate(1000000.000000) done
+2024-01-12 12:52:24,740 file.ec_base INFO setRate(1000.000000) done
+2024-01-12 12:52:24,740 file.rtobject INFO 1 execution context was created.
+2024-01-12 12:52:24,742 file.rtobject INFO Initial active configuration set is default.
+2024-01-12 12:52:29,461 file.rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/RTObject.py", line 1349, in on_activated
+    ret = self.onActivated(ec_id)
+  File "/home/rsdlab/workspace/wa_management3/rtc/Management3/Management3.py", line 164, in onActivated
+    ManagementClass()
+  File "/home/rsdlab/workspace/wa_management3/rtc/Management3/Management3.py", line 263, in __init__
+    with open('ipsetting.yaml', 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'ipsetting.yaml'
+
+2024-01-12 12:52:46,028 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2024-01-12 12:53:28,341 file.manager INFO 2.0.1
+2024-01-12 12:53:28,341 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:53:28,341 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-01-12 12:53:28,341 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:53:28,341 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-01-12 12:53:28,341 file.manager INFO   All right reserved.
+2024-01-12 12:53:28,341 file.manager INFO Manager starting.
+2024-01-12 12:53:28,341 file.manager INFO Starting local logging.
+2024-01-12 12:53:28,343 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-01-12 12:53:28,348 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-01-12 12:53:28,409 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-01-12 12:53:28,410 file.ec_base INFO setRate(1000000.000000) done
+2024-01-12 12:53:28,410 file.ec_base INFO setRate(1000.000000) done
+2024-01-12 12:53:28,411 file.rtobject INFO 1 execution context was created.
+2024-01-12 12:53:28,413 file.rtobject INFO Initial active configuration set is default.
+2024-01-12 12:53:33,126 file.rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/RTObject.py", line 1349, in on_activated
+    ret = self.onActivated(ec_id)
+  File "/home/rsdlab/workspace/wa_management3/rtc/Management3/Management3.py", line 164, in onActivated
+    ManagementClass()
+  File "/home/rsdlab/workspace/wa_management3/rtc/Management3/Management3.py", line 263, in __init__
+    with open('ipsetting.yaml', 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'ipsetting.yaml'
+
+2024-01-12 12:53:48,028 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2024-01-12 12:55:45,859 file.manager INFO 2.0.1
+2024-01-12 12:55:45,859 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:55:45,860 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-01-12 12:55:45,860 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:55:45,860 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-01-12 12:55:45,860 file.manager INFO   All right reserved.
+2024-01-12 12:55:45,860 file.manager INFO Manager starting.
+2024-01-12 12:55:45,860 file.manager INFO Starting local logging.
+2024-01-12 12:55:45,862 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-01-12 12:55:45,865 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-01-12 12:55:45,929 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-01-12 12:55:45,931 file.ec_base INFO setRate(1000000.000000) done
+2024-01-12 12:55:45,931 file.ec_base INFO setRate(1000.000000) done
+2024-01-12 12:55:45,932 file.rtobject INFO 1 execution context was created.
+2024-01-12 12:55:45,934 file.rtobject INFO Initial active configuration set is default.
+2024-01-12 12:55:50,638 file.rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/RTObject.py", line 1349, in on_activated
+    ret = self.onActivated(ec_id)
+  File "/home/rsdlab/workspace/wa_management3/rtc/Management3/Management3.py", line 164, in onActivated
+    ManagementClass()
+  File "/home/rsdlab/workspace/wa_management3/rtc/Management3/Management3.py", line 263, in __init__
+    with open('ipsetting.yaml', 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'ipsetting.yaml'
+
+2024-01-12 12:55:55,381 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2024-01-12 12:55:55,381 file.SdoServiceAdmin ERROR type  not exists.
+2024-01-12 12:56:00,677 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2024-01-12 12:58:58,150 file.manager INFO 2.0.1
+2024-01-12 12:58:58,150 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:58:58,150 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-01-12 12:58:58,150 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:58:58,150 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-01-12 12:58:58,150 file.manager INFO   All right reserved.
+2024-01-12 12:58:58,151 file.manager INFO Manager starting.
+2024-01-12 12:58:58,151 file.manager INFO Starting local logging.
+2024-01-12 12:58:58,152 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-01-12 12:58:58,156 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-01-12 12:58:58,215 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-01-12 12:58:58,216 file.ec_base INFO setRate(1000000.000000) done
+2024-01-12 12:58:58,216 file.ec_base INFO setRate(1000.000000) done
+2024-01-12 12:58:58,217 file.rtobject INFO 1 execution context was created.
+2024-01-12 12:58:58,219 file.rtobject INFO Initial active configuration set is default.
+2024-01-12 16:22:19,155 file.manager INFO 2.0.1
+2024-01-12 16:22:19,156 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 16:22:19,156 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-01-12 16:22:19,156 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 16:22:19,156 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-01-12 16:22:19,156 file.manager INFO   All right reserved.
+2024-01-12 16:22:19,156 file.manager INFO Manager starting.
+2024-01-12 16:22:19,156 file.manager INFO Starting local logging.
+2024-01-12 16:22:19,158 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-01-12 16:22:19,161 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-01-12 16:22:19,230 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-01-12 16:22:19,233 file.ec_base INFO setRate(1000000.000000) done
+2024-01-12 16:22:19,233 file.ec_base INFO setRate(1000.000000) done
+2024-01-12 16:22:19,235 file.rtobject INFO 1 execution context was created.
+2024-01-12 16:22:19,239 file.rtobject INFO Initial active configuration set is default.
+2024-01-12 16:23:18,950 file.manager INFO 2.0.1
+2024-01-12 16:23:18,950 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 16:23:18,950 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-01-12 16:23:18,950 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 16:23:18,950 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-01-12 16:23:18,950 file.manager INFO   All right reserved.
+2024-01-12 16:23:18,950 file.manager INFO Manager starting.
+2024-01-12 16:23:18,950 file.manager INFO Starting local logging.
+2024-01-12 16:23:18,952 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-01-12 16:23:18,956 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-01-12 16:23:19,012 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-01-12 16:23:19,013 file.ec_base INFO setRate(1000000.000000) done
+2024-01-12 16:23:19,014 file.ec_base INFO setRate(1000.000000) done
+2024-01-12 16:23:19,014 file.rtobject INFO 1 execution context was created.
+2024-01-12 16:23:19,016 file.rtobject INFO Initial active configuration set is default.
+2024-01-12 17:05:51,361 file.manager INFO 2.0.1
+2024-01-12 17:05:51,361 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 17:05:51,361 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-01-12 17:05:51,361 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 17:05:51,361 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-01-12 17:05:51,361 file.manager INFO   All right reserved.
+2024-01-12 17:05:51,361 file.manager INFO Manager starting.
+2024-01-12 17:05:51,361 file.manager INFO Starting local logging.
+2024-01-12 17:05:51,363 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-01-12 17:05:51,368 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-01-12 17:05:51,423 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-01-12 17:05:51,425 file.ec_base INFO setRate(1000000.000000) done
+2024-01-12 17:05:51,425 file.ec_base INFO setRate(1000.000000) done
+2024-01-12 17:05:51,425 file.rtobject INFO 1 execution context was created.
+2024-01-12 17:05:51,427 file.rtobject INFO Initial active configuration set is default.
+2024-01-12 17:06:03,986 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2024-01-12 17:06:03,986 file.SdoServiceAdmin ERROR type  not exists.
+2024-01-12 17:06:38,051 file.manager INFO 2.0.1
+2024-01-12 17:06:38,051 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 17:06:38,051 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-01-12 17:06:38,051 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 17:06:38,051 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-01-12 17:06:38,051 file.manager INFO   All right reserved.
+2024-01-12 17:06:38,051 file.manager INFO Manager starting.
+2024-01-12 17:06:38,051 file.manager INFO Starting local logging.
+2024-01-12 17:06:38,053 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-01-12 17:06:38,057 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-01-12 17:06:38,114 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-01-12 17:06:38,115 file.ec_base INFO setRate(1000000.000000) done
+2024-01-12 17:06:38,115 file.ec_base INFO setRate(1000.000000) done
+2024-01-12 17:06:38,116 file.rtobject INFO 1 execution context was created.
+2024-01-12 17:06:38,117 file.rtobject INFO Initial active configuration set is default.

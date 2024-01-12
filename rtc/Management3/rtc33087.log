@@ -1,0 +1,26 @@
+2024-01-12 12:45:47,229 file.manager INFO 2.0.1
+2024-01-12 12:45:47,229 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:45:47,229 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-01-12 12:45:47,229 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-01-12 12:45:47,229 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-01-12 12:45:47,229 file.manager INFO   All right reserved.
+2024-01-12 12:45:47,229 file.manager INFO Manager starting.
+2024-01-12 12:45:47,229 file.manager INFO Starting local logging.
+2024-01-12 12:45:47,231 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-01-12 12:45:47,237 file.ManagerServant INFO Master manager not found
+2024-01-12 12:45:47,238 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-01-12 12:45:47,242 file.manager INFO Component type conf file: Management3.conf loaded.
+2024-01-12 12:45:47,244 file.ec_base INFO setRate(1000000.000000) done
+2024-01-12 12:45:47,244 file.ec_base INFO setRate(1000.000000) done
+2024-01-12 12:45:47,244 file.rtobject INFO 1 execution context was created.
+2024-01-12 12:45:47,246 file.rtobject INFO Initial active configuration set is default.
+2024-01-12 12:45:52,238 file.rtobject ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/RTObject.py", line 1349, in on_activated
+    ret = self.onActivated(ec_id)
+  File "Management3.py", line 164, in onActivated
+    ManagementClass()
+  File "Management3.py", line 263, in __init__
+    with open('ipsetting.yaml', 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'ipsetting.yaml'
+
+2024-01-12 12:45:57,283 file.ManagerServant INFO Master manager not found

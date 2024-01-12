@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<rts:RtsProfile xmlns:rts="http://www.openrtp.org/namespaces/rts" xmlns:rtsExt="http://www.openrtp.org/namespaces/rts_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rts:id="RTSystem:manage3:manage3:1" rts:abstract="manage3" rts:creationDate="2024-01-12T12:52:11" rts:updateDate="2024-01-12T12:52:11" rts:version="0.2">
+    <rts:Components xsi:type="rtsExt:component_ext" rts:id="RTC:VenderName:Category:Management3:1.0.0" rts:pathUri="localhost:2809/Management30.rtc" rts:activeConfigurationSet="default" rts:instanceName="Management30" rts:compositeType="None" rts:isRequired="true" rtsExt:visible="true">
+        <rts:DataPorts xsi:type="rtsExt:dataport_ext" rts:name="in" rtsExt:visible="true"/>
+        <rts:DataPorts xsi:type="rtsExt:dataport_ext" rts:name="out" rtsExt:visible="true"/>
+        <rts:ConfigurationSets rts:id="default"/>
+        <rts:ExecutionContexts xsi:type="rtsExt:execution_context_ext" rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
+        <rtsExt:Location rtsExt:x="0" rtsExt:y="0" rtsExt:height="0" rtsExt:width="0" rtsExt:direction="down"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e30000000000100000000000000f2000000010102000e0000003139322e3136382e302e31353600fb0a0e000000fe4fb7a0650000858e000000000100000500000000000000080000000100000000545441010000001c000000010000000100010001000000010001050901010001000000090101000300000016000000010000000b0000003137322e31372e302e310000fb0a000003000000300000000100000025000000323430393a3235313a34313a383230303a353039633a396561343a666538373a313336390000fb0a030000002e0000000100000024000000323430393a3235313a34313a383230303a346234613a363566353a336632353a62363700fb0a"/>
+    </rts:Components>
+</rts:RtsProfile>
